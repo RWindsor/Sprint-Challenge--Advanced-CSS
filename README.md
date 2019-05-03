@@ -1,6 +1,6 @@
 # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
-This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.
+This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling..
 
 ## Instructions
 
@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+* Adpative websites will essentially adapt to fit into different screens using fixed (hard coded) media queries for those different screen sizes (desktop, tablet, mobile).
+* Responsive webistes will apadt to all screen sizes using responsive (%, rem, em) media queries for various screen sizes.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+* Designers/developers will design a mobile interface first and then expand it into a desktop interfcae.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+* That will change the root font-size to 10px, which will allow for better conversions when using rem unit.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+* A CSS preprocessor allows you to style elements in a way that's pretty similar to coding in HTML. You can nest children elements in parent styles so you won't have to repeatedly list the same attributes. From there the preprocessor will be compiled into CSS. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+* My *favorite* concept was mixins because it saved me a lot of time and help me keep the same styling for various elements. The concept the gave me the *most trouble* was probably the escaping feature. It's not that it gave me a hard time, it's just that it didn't save me any time like the other less features did.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

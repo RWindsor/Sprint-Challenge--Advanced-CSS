@@ -5,6 +5,7 @@
    background: rgb(240, 240, 240);
    padding: 20px;
    display: flex;
+   flex-wrap: wrap;
 
     h1{
         .logo();
@@ -17,6 +18,11 @@
             color: @footer-font-color;
             font-size: 1.6rem;
             padding: 20px;
+
+            @media @mobile{
+                font-size: 1.4rem;
+                padding: 10px;
+            }
         }
         
 

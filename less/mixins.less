@@ -1,6 +1,9 @@
 // Mixins Here
 .navigation(){
-    display: inline-flex;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo(){
@@ -11,8 +14,9 @@
 }
 
 .button(@background, @color){
-    padding: 20px;;
+    padding: 10px;
     font-size: 1.2rem;
+    width: 30%;
     background: @background;
     color: @color;
 }

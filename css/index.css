@@ -164,6 +164,7 @@ p {
   background: #f0f0f0;
   padding: 20px;
   display: flex;
+  flex-wrap: wrap;
 }
 .navbar h1 {
   font-size: 4rem;
@@ -172,13 +173,22 @@ p {
   padding: 8px;
 }
 .navbar nav {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
 }
 .navbar nav a {
   text-decoration: none;
   color: #81848E;
   font-size: 1.6rem;
   padding: 20px;
+}
+@media (max-width: 500px) {
+  .navbar nav a {
+    font-size: 1.4rem;
+    padding: 10px;
+  }
 }
 footer {
   color: #22283B;
@@ -242,6 +252,7 @@ footer {
   .home .walk {
     width: 100%;
     display: flex;
+    padding: 40px 20px;
     flex-direction: column;
   }
 }
@@ -260,8 +271,9 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  padding: 20px;
+  padding: 10px;
   font-size: 1.2rem;
+  width: 30%;
   background: #23293B;
   color: white;
   border-radius: 10px;
@@ -274,8 +286,9 @@ footer {
   }
 }
 .home .walk .walk-text .btn:hover {
-  padding: 20px;
+  padding: 10px;
   font-size: 1.2rem;
+  width: 30%;
   background: white;
   color: #23293B;
   border-radius: 10px;
